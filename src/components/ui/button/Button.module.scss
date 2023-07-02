@@ -1,0 +1,17 @@
+.button {
+  @apply aspect-[1/1] shrink-0 grow-0 rounded-full p-7 text-xl uppercase md:p-16 md:text-3xl;
+  color: #0b0d17;
+  font-family: 'Bellefair';
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.125rem;
+  background-color: #fff;
+  transition: box-shadow 0.5s;
+
+  &:hover {
+    box-shadow: 0 0 0 5rem hsla(0, 0%, 100%, 0.15);
+    @media (width < 768px) {
+      box-shadow: 0 0 0 3rem hsla(0, 0%, 100%, 0.15);
+    }
+  }
+}

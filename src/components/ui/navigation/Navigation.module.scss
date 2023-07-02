@@ -1,0 +1,21 @@
+.wrapper {
+  @apply flex items-center justify-center gap-7;
+}
+
+.navbar {
+  @apply z-10 flex items-center justify-center;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+  width: 51.875rem;
+  height: 6rem;
+  flex-shrink: 1;
+}
+
+.nav-toggle {
+  @apply gap-12;
+  display: flex;
+  .nav-item {
+    @apply pb-10 pt-10;
+    color: #fff;
+  }
+}

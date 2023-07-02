@@ -1,0 +1,81 @@
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+  background-color: black;
+}
+
+.plain-text {
+  @apply text-left font-body text-lg text-light-blue;
+}
+
+.title-1 {
+  color: #fff;
+  font-size: 9.375rem;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-2 {
+  color: #fff;
+  font-size: 6.25rem;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-3 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.title-4 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.title-5 {
+  color: #d0d6f9;
+  font-size: 1.75rem;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.29531rem;
+}
+
+.subtitle-1 {
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.subtitle-2 {
+  color: #fff;
+  font-size: 0.875rem;
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14763rem;
+  text-transform: uppercase;
+}
