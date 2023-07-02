@@ -1,0 +1,6 @@
+.nav-toggle {
+  @apply flex gap-12;
+  .nav-item {
+    @apply flex gap-2 pb-10 pt-10 text-white;
+  }
+}

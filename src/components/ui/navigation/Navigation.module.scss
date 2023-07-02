@@ -5,10 +5,14 @@
 .navbar {
   @apply z-10 flex items-center justify-center;
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(40.774227142333984px);
+  backdrop-filter: blur(3.5rem);
   width: 51.875rem;
   height: 6rem;
   flex-shrink: 1;
+}
+
+.hr {
+  @apply relative z-50 flex-grow translate-x-10 border-white border-opacity-25;
 }
 
 .nav-toggle {

@@ -3,11 +3,7 @@ import Navigation from '../components/ui/navigation/Navigation';
 
 const Home = () => {
   return (
-    <div
-      className={
-        'flex min-h-screen flex-col bg-[url("../assets/home/background-home-mobile.jpg")] bg-cover pb-40 pl-3 pt-7 md:bg-[url("../assets/home/background-home-tablet.jpg")] xl:bg-[url("../assets/home/background-home-desktop.jpg")]'
-      }
-    >
+    <div className="page-wrapper home-page">
       <Navigation />
       <div className="mt-auto flex items-end justify-between gap-5 px-20">
         <div className="w-96">

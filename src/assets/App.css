@@ -7,11 +7,62 @@
   background-color: black;
 }
 
+.page-wrapper {
+  @apply flex min-h-screen flex-col bg-cover pb-40 pl-10 pt-7;
+  background-image: var(--bg);
+}
+
+.home-page {
+  --bg: url('home/background-home-mobile.jpg');
+}
+
+.destination-page {
+  --bg: url('destination/background-destination-mobile.jpg');
+}
+
+.crew-page {
+  --bg: url('crew/background-crew-mobile.jpg');
+}
+.technology-page {
+  --bg: url('technology/background-technology-mobile.jpg');
+}
+
+@media (min-width: 768px) {
+  .home-page {
+    --bg: url('home/background-home-tablet.jpg');
+  }
+  .destination-page {
+    --bg: url('destination/background-destination-tablet.jpg');
+  }
+  .crew-page {
+    --bg: url('crew/background-crew-tablet.jpg');
+  }
+  .technology-page {
+    --bg: url('technology/background-technology-tablet.jpg');
+  }
+}
+
+@media (min-width: 1024px) {
+  .home-page {
+    --bg: url('home/background-home-desktop.jpg');
+  }
+  .destination-page {
+    --bg: url('destination/background-destination-desktop.jpg');
+  }
+  .crew-page {
+    --bg: url('crew/background-crew-desktop.jpg');
+  }
+  .technology-page {
+    --bg: url('technology/background-technology-desktop.jpg');
+  }
+}
+
 .plain-text {
   @apply text-left font-body text-lg text-light-blue;
 }
 
 .title-1 {
+  @apply text-white;
   color: #fff;
   font-size: 9.375rem;
   font-family: 'Bellefair';
@@ -21,6 +72,7 @@
 }
 
 .title-2 {
+  @apply text-white;
   color: #fff;
   font-size: 6.25rem;
   font-family: 'Bellefair';
@@ -30,6 +82,7 @@
 }
 
 .title-3 {
+  @apply text-white;
   color: #fff;
   font-size: 3.5rem;
   font-family: 'Bellefair';
@@ -40,6 +93,7 @@
 }
 
 .title-4 {
+  @apply text-white;
   color: #fff;
   font-size: 2rem;
   font-family: 'Bellefair';
@@ -50,6 +104,7 @@
 }
 
 .title-5 {
+  @apply text-light-blue;
   color: #d0d6f9;
   font-size: 1.75rem;
   font-family: 'Barlow Condensed';
@@ -60,9 +115,10 @@
 }
 
 .subtitle-1 {
+  @apply text-white;
   color: #fff;
   font-size: 1.75rem;
-  font-family: Bellefair;
+  font-family: 'Bellefair';
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -70,9 +126,10 @@
 }
 
 .subtitle-2 {
+  @apply text-white;
   color: #fff;
   font-size: 0.875rem;
-  font-family: Barlow Condensed;
+  font-family: 'Barlow Condensed';
   font-style: normal;
   font-weight: 400;
   line-height: normal;
